@@ -4,6 +4,13 @@
 Refer Following Artifact under Project Folder - StockTradeApp
 
                     Capstone Project - Technical Paper - Day Trade Stock Prediction System 
+                    
+# Capstone Project - EDA:
+
+Refer Following Artifact under Project Folder - StockTradeApp
+
+                    Capstone Project - Technical Paper - Day Trade Stock Prediction System 
+     
 
 # Day Stock Recommender System
 
