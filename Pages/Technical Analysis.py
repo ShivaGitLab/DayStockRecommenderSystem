@@ -269,7 +269,6 @@ st.write(fig)
 
 # ********** BB ***************
 
-
 fig = make_subplots(
     rows=2, cols=1,
     subplot_titles=("Plot 1", "Plot 2"))
