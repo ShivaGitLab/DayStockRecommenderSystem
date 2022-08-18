@@ -271,7 +271,7 @@ st.write(fig)
 
 fig = make_subplots(
     rows=2, cols=1,
-    subplot_titles=("Plot 1", "Plot 2"))
+    subplot_titles=("Closing Price Chart", "Bollinger Bands"))
 
 fig.add_trace(go.Scatter(y=data["Close"], name="Closing Price", mode="lines"), row=1, col=1)
 fig.add_trace(

@@ -113,13 +113,12 @@ data = dic[ticker]
 
 pred, rmse = lstm(data)
 
-
-close_prices = getPrices(getTables('Nasdaq'))[1]['Close']
+close_prices = data['Close']
 values = close_prices.values
 training_data_len = math.ceil(len(values)* 0.99)
 
 
-data = getPrices(getTables('Nasdaq'))[1].filter(['Close'])
+data = data.filter(['Close'])
 train = data[:training_data_len]
 validation = data[training_data_len:]
 validation['Predictions'] = pred
