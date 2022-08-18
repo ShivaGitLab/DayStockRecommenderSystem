@@ -132,5 +132,11 @@ fig.add_trace(go.Scatter(x = validation.index, y=validation["Predictions"], name
 fig.update_layout(
    title=f"{tickerDesc} Stock Price Evaluation - LSTM Model", xaxis_title="Date", yaxis_title="Closing Price", width=800, height=500)
 st.write(fig)
+temp = ""
 
-st.text_area(f"RMSE Value: ", value = f"{rmse}")
+st.markdown(f"{tickerDesc} Stock Prices for the Next Few Days Would be: ")
+for i in validation["Predictions"]:
+    # temp = temp + '\n' + str(round(i, 2))
+    st.button(str(round(i, 2)))
+
+# st.Markdown("Stock Prices for the Next Few Days Would be")
