@@ -1,26 +1,30 @@
 
 # Capstone Project - Technical Paper:
 
-Refer Following Artifact under Project Folder - StockTradeApp
+Refer Following Artifact under Project Folder - DayStockRecommenderSystem
 
                     Capstone Project - Technical Paper - Day Trade Stock Prediction System 
                     
 # EDA:
 
-Refer Following Artifact under Project Folder - StockTradeApp
+Refer Following Artifact under Project Folder - DayStockRecommenderSystem
 
                     EDA.ipynb
                   
  # Data Collection:
 
-Refer Following Artifact under Project Folder - StockTradeApp
+Refer Following Artifact under Project Folder - DayStockRecommenderSystem
 
                     Data Collection.ipynb
-     
+# ARIMA:
+
+Refer Following Artifact under Project Folder - DayStockRecommenderSystem
+
+                    ARIMA.ipynb
 
 # Day Stock Recommender System
 
-Once downloading the Project Folder 'StockTradeApp', Follow below Steps
+Once downloading the Project Folder 'DayStockRecommenderSystem', Follow below Steps
 
 1)  Load the Project Folder using PyCharm - Allow Dependencies to Load
 2)  Execute following Notebook to Load the data from Yahoo Finance to MySQL Workbench which includes Schema Creation.
